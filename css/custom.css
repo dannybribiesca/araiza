@@ -396,6 +396,14 @@ body{
 	margin-bottom: 0;
 }
 
+.section-row-2{
+	margin-bottom: 0px;
+}
+
+.section-row-2 .section-title{
+	margin-bottom: 0;
+}
+
 .section-btn{
 	text-align: end;
 }
@@ -655,6 +663,26 @@ header.main-header{
 
 .slicknav_open > a .slicknav_arrow:after{
     transform: rotate(-180deg);
+}
+
+.header-contact ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.header-contact ul li{
+	font-size: 14px;
+	color: var(--primary-color);
+	margin-bottom: 5px;
+}
+
+.header-contact ul li:last-child{
+	margin-bottom: 0;
+}
+
+.header-contact ul li a{
+	color: inherit;
 }
 
 /************************************/
