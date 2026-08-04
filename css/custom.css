@@ -466,11 +466,17 @@ header.main-header{
 		.navbar-brand-logo{
 			max-width: 700px;
 		}
+		.navbar-brand-logo-mobile {
+			display: none;
+		}
 	}
 
 	@media only screen and (max-width: 767px) {
-		.navbar-brand-logo{
-			width: 90%;
+		.navbar-brand-logo {
+			display: none;
+		}
+		.navbar-brand-logo-mobie{
+			width: 100%;
 		}
 	}
 
