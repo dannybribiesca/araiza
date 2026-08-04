@@ -41,7 +41,7 @@
 	--primary-color		: #0C1524;
 	--secondary-color	: #F5F7FA;
 	--text-color		: #4A5567;
-	--accent-color		: #3452ff;
+	--accent-color  	: #3452ff;
 	--divider-color		: #DBDFEA;
 	--dark-divider-color: #FFFFFF30;
 	--white-color		: #FFFFFF;
@@ -427,7 +427,7 @@ body{
 
 .section-title h1,
 .section-title h2{
-	font-size: 50px;
+	font-size: 35px;
 	letter-spacing: -0.03em;
 	font-weight: 600;
 	margin-bottom: 0;
@@ -464,7 +464,7 @@ header.main-header{
 
 @media only screen and (min-width: 768px) {
 		.navbar-brand-logo{
-			max-width: 500px;
+			max-width: 700px;
 		}
 	}
 
@@ -672,7 +672,7 @@ header.main-header{
 }
 
 .header-contact ul li{
-	font-size: 14px;
+	font-size: 18px;
 	color: var(--primary-color);
 	margin-bottom: 5px;
 }
